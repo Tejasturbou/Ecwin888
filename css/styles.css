@@ -192,9 +192,45 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
 }
+#inlines {
+	display: inline-block;
+}
 
 #line {
-	width: 50px;
-	height: 5px;
-	padding: 2px;
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+	width: 200px;
+	height: 0.3px;
+	margin-left: 20px;
+	background-color: #fff;
+}
+
+#vertical_line{
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	right: 3px;
+	width: 2.5px;
+	height: 20px;
+	background-color: #fff;
+}
+
+#menu {
+	display: inline-block;
+}
+
+#menu div{
+	display: inline-block;
+	color: white;
+}
+
+.spot{
+	padding: 0 6px 0 8px;
+	font-size: 25px;
+	position: relative;
+	bottom: 5px;
+	display: inline;
+	width: 2px;
+	color: #fff;
 }
