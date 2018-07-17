@@ -1,3 +1,8 @@
+ @font-face {
+ 	font-family: Reality-Sunday-light;
+ 	src: url('../fonts/Reality-Sunday-light.ttf');
+ }
+
 html{
 	margin: 0;
 	padding: 0;
@@ -17,6 +22,7 @@ header {
 	position: relative;
 	float: right;
 	color: #deefec;
+	top: 30px;
 }
 
 span a{
@@ -37,6 +43,10 @@ a:active {
     color: #fff;
 }
 
+#rocket {
+	position: absolute;
+}
+
 #login {
 	display: inline;
 	margin-right: 226px;   /*226px*/
@@ -45,7 +55,7 @@ a:active {
 
 #login button{
 	border: 0.1px solid #a9b9dc;
-	background: transparent;
+	background: #032B90;
 	font-size: 12.5px;
 	padding: 5.8px 15px 5.5px 15px;
 	letter-spacing: 0.8px;
@@ -56,17 +66,32 @@ a:active {
 
 #block_1 {
 	position: relative;
+	display: inline-block;
 	left: 22%;
-	top: 130px;
-	width: 30%;
+	top: 100px;
+	width: 27%;
+	right: 0;
+	margin-top: 10px;
+	padding: 0
 }
 
 h1{
-	font-size: 40px;
+	display: inline-block;
+	font-size: 70px;
+	font-family: 'Reality-Sunday-light' , 'Roboto', sans-serif;
+	color: #fff;
+	letter-spacing: 4px;
+	margin-bottom: 0;
 }
 
-h2{
+h2#font-1{
+	display: inline-block;
 	font-size: 36px;
+	color: #fff;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+
 }
 
 #logo {
@@ -81,10 +106,10 @@ h2{
 
 nav {
 	width: 100%;
-	position: sticky;
+	/*position: sticky;*/
 	background-color: black;
 	position: relative;
-	top: 350px;
+	top: 320px;
 }
 
 #nav_logo{
@@ -97,17 +122,15 @@ nav {
 #nav_logo img {
 	position: relative;
 	top: 6px;
-	right: 6px;
+	right: 20px;
 }
 
 #nav_menu{
 	width: 75%;
-	height: 100%;
 	display: inline-block;
 	text-align: left;
 	vertical-align: middle;
 	position: absolute;
-	/*margin-top: 10px;*/
 	background-color: #024dae;
 }
 
@@ -139,9 +162,34 @@ nav {
 	position: relative;
 	text-align: center;
 	border: 0;
-	padding: 4px 14px 4px 14px;
+	padding: 6px 14px 6px 14px;
 	background-color: #ffdf00;
 	color: #00295f;
 	font-weight: 600;
 	cursor: pointer;
+	bottom: 14px;
+	left: 15px;
+}
+
+#section2{
+	position: relative;
+	display: inline-block;
+	top: 300px;
+	left: 22%;
+}
+
+#section2 h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: lighter;
+	margin-bottom: 0;
+}
+
+#section2 h3 {
+	margin-top: 0;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+
 }
