@@ -1,8 +1,9 @@
 html{
 	margin: 0;
 	padding: 0;
-	height: 3000px;
+	height: 3200px;
 }
+
 body {
 	background-image: url("../images/homepage-3.jpg");
 	background-size: contain;
