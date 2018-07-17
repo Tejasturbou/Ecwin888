@@ -1,19 +1,21 @@
 html{
 	margin: 0;
 	padding: 0;
-	height: 3200px;
+	height: 3062px;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
 	background-image: url("../images/homepage-3.jpg");
 	background-size: contain;
-	background-attachment: local;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
 }
 
 header {
+	position: relative;
 	float: right;
 	color: #deefec;
 }
@@ -55,8 +57,8 @@ a:active {
 
 #block_1 {
 	position: relative;
-	left: 23%;
-	top: 200px;
+	left: 22%;
+	top: 130px;
 	width: 30%;
 }
 
@@ -68,18 +70,70 @@ h2{
 	font-size: 36px;
 }
 
+#logo {
+	position: absolute;
+	top: 2%;
+	left: 20%;
+}
+
+#logo img{
+	width: 250px;
+}
+
 nav {
 	width: 100%;
 	position: sticky;
 	background-color: black;
 	position: relative;
-	top: 410px;
+	top: 350px;
 }
 
 #nav_logo{
-	width: 40%;
+	width: 25%;
+	display: inline-block;
+	text-align: right;
+	background-color: #100074;
+}
+
+#nav_logo img {
+	position: relative;
+	top: 6px;
+	right: 6px;
 }
 
 #nav_menu{
-	width: 60%;
+	width: 75%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	/*margin-top: 10px;*/
+	background-color: #024dae;
+}
+
+#nav_menu div{
+	display: inline-block;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+	margin: 8px;
+	padding: 5px;
+}
+
+#nav_menu img{
+	margin-bottom: 5px;
+}
+
+#nav_menu p{
+	margin: 0;
+	font-size: 12px;
+}
+
+#nav_menu button{
+	position: relative;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	margin:;
 }
