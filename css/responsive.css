@@ -1,0 +1,32 @@
+/*@media screen and (min-width: 1800px) {
+	body{
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+	html{
+		height: 646px;
+	}
+	body {
+		background-image: url("../images/iphone.png");
+		background-size: cover;
+		height: 646px;
+	}
+	header {
+		top: 4px;
+		width: 15px;
+	}
+
+	span a{
+		font-size: 2px;
+	}
+
+	#login{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#login button{
+		font-size: 5px;
+	}
+}*/
