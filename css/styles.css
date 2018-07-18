@@ -180,7 +180,7 @@ nav {
 	position: relative;
 	text-align: center;
 	border-color: #ffdf00;
-	padding: 6px 14px 6px 14px;
+	padding: 6px 10px 6px 10px;
 	background-color: #ffdf00;
 	color: #00295f;
 	font-weight: 600;
@@ -282,25 +282,135 @@ button#play_now{
 	font-weight: 600;
 }
 
-#enjoy{
+div#enjoy{
 	font-size: 32px;
 	font-weight: lighter;
 	color: #fff;
 	letter-spacing: 2.5px;
-	position: absolute;
+	position: relative;
 	left: 20%;
 	width: 26%;
 	text-align: center;
 	z-index: 5;
 	overflow: hidden;
+	margin-bottom: 130px;
 }
 
 #enjoy h2 {
-	margin-bottom: 210px;
 	font-family: 'Reality-Sunday-light' , 'Roboto', sans-serif;
+	margin-bottom: 210px;
 }
 
 #enjoy p{
 	font-size: 15px;
 	letter-spacing: 1px;
+}
+
+#ecwin{
+	width: 66%;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+	color: #fff;
+	text-align: justify;
+}
+
+.ecwin-p{
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	margin: 2px 0;
+}
+
+.ecwin-p2{
+	font-size: 11px;
+	letter-spacing: 0.5px;
+}
+
+#partners{
+	position: relative;
+	margin-left: 20%;
+	display: inline-block;
+	width: 66%;
+	margin-bottom: 11%;
+}
+
+#partners h3 {
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 2px;
+	font-weight: 300;
+}
+
+#partners div {
+	display: inline-block;
+	width: 150px;
+	height: 96px;
+	margin: 2px 10px;
+	background-image: url("../images/cloud.png");
+	background-color: #005caa;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#partners img {
+	position: relative;
+	width: 104px;
+	height: 46px;
+	left: 27px;
+	top: 22px;
+}
+
+#links{
+	font-size: 11px;
+	position: relative;
+	left: 22%;
+	color: #fff;
+	width: 70%;
+	margin: 0 0 100px 0;
+}
+
+.headings{
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+#links div{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4%;
+}
+
+#links a{
+	text-decoration: none;
+}
+
+#links p{
+	margin: 8px 0;
+	letter-spacing: 0.5px;
+}
+
+#big_logo{
+	position: absolute;
+	text-align: center;
+	left: 27.5%;
+}
+
+#malaysia{
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+	color: #fff;
+	position: relative;
+	top: -20px;
+	text-decoration: none;
+}
+
+.small-p{
+	text-align: center;
+	position: relative;
+	font-size: 11px;
+	margin: 0;
+	color: white;
 }
