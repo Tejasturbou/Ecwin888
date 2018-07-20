@@ -1,0 +1,160 @@
+ @font-face {
+ 	font-family: Reality-Sunday-light;
+ 	src: url('fonts/Reality-Sunday-light.ttf');
+ }
+
+html{
+	margin: 0;
+	padding: 0;
+	/*height: 3062px;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	margin: 0;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	color: #deefec;
+}
+
+#section1{
+	display: block;
+	background-image: url("images/banner-bg-1.png");
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: -280px 0px;
+	height: 500px;
+}
+
+#floats-right{
+	position: relative;
+	float: right;
+	/*right: -4%;*/
+	top: 20px;
+}
+
+span a{
+	display: none;
+	letter-spacing: 0.6px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
+
+#login {
+	display: inline;
+	margin-right: 12px;   226px
+/*	margin-left: 16px;*/
+}
+
+#login button{
+	border: 0.1px solid #a9b9dc;
+	background: #032B90;
+	font-size: 10.5px;
+	padding: 4px 10px 4px 10px;
+	letter-spacing: 0.5px;
+	color: #deefec;
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+#logo {
+	position: absolute;
+	width: 47%;
+	text-align: center;
+}
+
+#logo img{
+	width: 150px;
+}
+
+#logo p{
+	margin: 0;
+	font-size: 0.1em;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+	color: #fff;
+	position: relative;
+	top: -10px;
+	text-decoration: none;
+}
+
+#rocket {
+	position: absolute;
+	left: 28%;
+	top: 13%;
+}
+
+#rocket img{
+	width: 150px;
+	height: 80px;
+}
+
+#block_1 {
+	position: absolute;
+	display: inline-block;
+	left: 6%;
+	top: 128px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+h1{
+	display: inline-block;
+	font-size: 38px;
+	font-family: 'Reality-Sunday-light' , 'Roboto', sans-serif;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+
+h2#font-1{
+	display: inline-block;
+	font-size: 23px;
+	color: #fff;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+}
+
+#clouds-1{
+	position: absolute;
+	width: 100%;
+	top: 54%;
+}
+
+#roulette{
+	position: absolute;
+	top: 66%;
+	/*left: 40%;*/
+}
+
+#spin{
+	width: 200px;
+	height: 160px;
+}
+
+#poker{
+	width: 140px;
+	height: 100px;
+}
+
+#roulette span{
+	position: relative;
+	top: 20px;
+}
+
