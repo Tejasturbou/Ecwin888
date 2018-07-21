@@ -474,11 +474,12 @@ div#enjoy{
 }
 
 #links{
+	text-align: center;
 	font-size: 11px;
-	position: relative;
-	left: 22%;
+	position: absolute;
+	/*left: 22%;*/
 	color: #fff;
-	width: 70%;
+	width: 100%;
 	margin: 0 0 100px 0;
 }
 
@@ -493,11 +494,16 @@ div#enjoy{
 	margin-right: 4%;
 }
 
+#links div:last-child{
+	margin-right: 0;
+}
+
 #links a{
 	text-decoration: none;
 }
 
 #links p{
+	text-align: left;
 	margin: 8px 0;
 	letter-spacing: 0.5px;
 }
@@ -511,10 +517,9 @@ div#enjoy{
 }
 
 #big_logo{
-	position: absolute;
 	text-align: center;
-	left: 27.5%;
-	top: 27%;
+	position: relative;
+	top: 25%;
 }
 
 #malaysia{
