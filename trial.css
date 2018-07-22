@@ -565,7 +565,7 @@ div#enjoy{
 @media screen and (min-width: 361px){
 	button#play_now{
 		left: 32%;
-		right: 32%;
+		right: 34%;
 	}
 
 	#roulette{
@@ -607,10 +607,10 @@ div#enjoy{
 	}
 }
 
-@media screen and (min-width: 410px){
+@media screen and (min-width: 470px){
 	button#play_now{
-		left: 37%;
-		right: 37%;
+		left: 39%;
+		right: 39%;
 	}
 }
 
