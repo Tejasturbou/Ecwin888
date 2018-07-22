@@ -24,6 +24,7 @@ header{
 	position: relative;
 	background-image: url("../images/banner-bg-1.png");
 	background-size: 100% 100%;
+	background-position: 0px -60px;
 	height: 620px;
 }
 
@@ -264,7 +265,7 @@ nav {
 #line {
 	display: inline-block;
 	position: relative;
-	top: 56px;
+	top: 53px;
 	width: 200px;
 	height: 0.3px;
 	/*margin-left: 20px;*/
@@ -426,11 +427,14 @@ div#enjoy{
 	letter-spacing: 0.5px;
 }
 
+#hide{
+	display: none;
+}
 #partners{
 	position: relative;
 	margin-left: 20%;
 	display: inline-block;
-	width: 66%;
+	width: 70%;
 }
 
 #partners h3 {

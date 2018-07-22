@@ -12,7 +12,6 @@ html{
 
 body{
 	margin: 0;
-	height: 100%;
 }
 
 header{
@@ -25,8 +24,8 @@ header{
 	background-image: url("images/banner-bg-1.png");
 	background-repeat: no-repeat;
 	background-size: 200% 100%;
-	background-position: -280px 0px;
-	height: 500px;
+	background-position: -240px 0px;
+	height: 520px;
 }
 
 #floats-right{
@@ -57,7 +56,7 @@ a:active {
 
 #login {
 	display: inline;
-	margin-right: 12px;   226px
+	margin-right: 12px;   /*226px*/
 /*	margin-left: 16px;*/
 }
 
@@ -134,27 +133,490 @@ h2#font-1{
 #clouds-1{
 	position: absolute;
 	width: 100%;
-	top: 54%;
+	top: 67%;
+}
+
+#clouds-1 img{
+	width: 100%;
+	height: 230px;
 }
 
 #roulette{
 	position: absolute;
-	top: 66%;
+	top: 62%;
 	/*left: 40%;*/
 }
 
 #spin{
-	width: 200px;
-	height: 160px;
-}
-
-#poker{
-	width: 140px;
-	height: 100px;
+	position: absolute;
+	top: -30px;
+	width: 210px;
+	height: 170px;
 }
 
 #roulette span{
-	position: relative;
-	top: 20px;
+	position: absolute;
+	top: 40px;
+	left: 170px;
 }
 
+#poker_coins{
+	position: absolute;
+	/*right: -20px;*/
+	width: 150px;
+	height: 150px;
+}
+
+nav {
+	width: 100%;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+}
+
+#nav_logo{
+	width: 40%;
+	display: inline-block;
+	text-align: right;
+	background-color: #100074;
+}
+
+#nav_logo img {
+	width: 100px;
+	height: 44px;
+	position: relative;
+	top: 6px;
+	right: 12px;
+}
+
+#nav_menu{
+	width: 60%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	position: absolute;
+	background-color: #024dae;
+	height: 100%;
+
+}
+
+#nav_menu div{
+	display: none;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.7px;
+	height: contain;
+	text-align: center;
+	margin: 8px 4px 4px 4px;
+	padding: 6px 12px 18px 12px;
+	position: relative;
+}
+
+#nav_menu div>a{
+	text-decoration: none;
+}
+
+#nav_menu img{
+	margin-bottom: 5px;
+	width: 24px;
+	height: 24px;
+}
+
+#nav_menu p{
+	margin: 0;
+	font-size: 10px;
+}
+
+#nav_menu button{
+	position: relative;
+	top: 10px;
+	left: 30px;
+	text-align: center;
+	border-color: #ffdf00;
+	padding: 4px 8px 4px 8px;
+	background-color: #ffdf00;
+	color: #00295f;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#section2{
+	display: block;
+	position: relative;
+	background-image: url("images/blue-bg.png");
+	background-size: 100% 100%;
+	height: 76%;
+}
+
+#section2_div{
+	position: relative;
+}
+
+#section2 h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+#section2 h3 {
+	margin-top: 0;
+	/*margin-bottom: 4px;*/
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#menu {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#menu div{
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	/*text-align: center;*/
+}
+
+.spot{
+	padding: 0 0px 0 3px;
+	font-size: 25px;
+	position: relative;
+	bottom: 2px;
+	display: inline;
+	width: 2px;
+	color: #fff;
+}
+
+#promotions{
+	position: relative;
+	text-align: center;
+}
+
+#women{
+	width: 320px;
+	position: relative;
+	/*left: 16%;*/
+	top: 130px;
+	z-index: 2;
+	text-align: center;
+}
+
+#cloud-2{
+	width: 100%;
+}
+
+#play{
+	position: absolute;
+	/*left: 60%;*/
+	top: 20px;
+	left: 0;
+	right: 0;
+}
+
+#play h2{
+	font-size: 40px;
+	font-weight: bolder;
+	margin: 0;
+	text-align: center;
+	position: relative;
+}
+
+
+button#play_now{
+	display: block;
+	vertical-align: middle;
+	width: 130px;
+	position: relative;
+	top: 20px;
+	left: 90px;
+	padding: 7px 12px 7px 12px;
+	box-shadow: 0;
+	border-color: #00B3E7;
+	border-radius: 16px;
+	cursor: pointer;
+	background: #00B3E7;
+	color: #fff;
+	font-weight: 600;
+}
+
+#section3{
+	display: block;
+	position: relative;
+	background-image: url("images/bg-1.png");
+	background-size: 100% 100%;
+	height: 540px;
+}
+
+div#enjoy{
+	position: relative;
+	color: #fff;
+	top: 40px;
+	letter-spacing: 1.5px;
+	width: 100%;
+	text-align: center;
+	z-index: 5;
+	margin: 0;
+	/*overflow: hidden;*/
+}
+
+#enjoy h2 {
+	font-family: 'Reality-Sunday-light' , 'Roboto', sans-serif;
+	font-weight: lighter;
+	margin: 0 0 10px 0;
+	font-size: 40px;
+}
+
+#enjoy p{
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+#cloud-3{
+	position: absolute;
+	bottom: 0px;
+	height: 140px;
+	text-align: right;
+	width: 100%;
+}
+
+#combo{
+	position: absolute;
+	width: 340px;
+	right: 0px;
+	bottom: 0;
+}
+
+#section4{
+	display: block;
+	position: relative;
+	background-color: #005CAA;
+	background-size: 100% 100%;
+	height: 80%;
+}
+
+#ecwin{
+	width: 66%;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+	color: #fff;
+	text-align: justify;
+	overflow-y: scroll;
+	height: 300px;
+}
+
+.ecwin-p{
+	margin: 0;
+	font-weight: 400;
+	/*letter-spacing: px;*/
+}
+
+.ecwin-p2{
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+
+
+#hide{
+	width: 100%;
+	height: 270px;
+}
+
+#partners{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	width: 85%;
+}
+
+#partners h3 {
+	display: inline-block;
+	color: #fff;
+	margin: 0 10px 0 0;
+	font-weight: 300;
+	width: 80%;
+}
+
+#partners div {
+	display: inline-block;
+	width: 100px;
+	height: 76px;
+	margin: 2px 10px;
+	background-image: url("images/cloud.png");
+	background-color: #005caa;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#partners img {
+	position: relative;
+	width: 70px;
+	height: 28px;
+	left: 16px;
+	top: 22px;
+}
+
+#clouds-4{
+	position: relative;
+	width: 100%;
+	height: 190px;
+	bottom: 10px;
+}
+
+#section5{
+	display: block;
+	position: relative;
+	background-color: #005CAA;
+	background-size: 100% 100%;
+	height: 330px;
+}
+
+#links{
+	text-align: center;
+	font-size: 8px;
+	position: absolute;
+	/*left: 22%;*/
+	color: #fff;
+	width: 100%;
+	/*margin: 0 0 100px 0;*/
+}
+
+.headings{
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+#links div{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2%;
+}
+
+#links div:last-child{
+	margin-right: 0;
+}
+
+#links a{
+	text-decoration: none;
+}
+
+#links p{
+	text-align: left;
+	margin: 6px 0;
+	letter-spacing: 0.5px;
+}
+
+#section6{
+	display: block;
+	position: relative;
+	background-image: url("images/footer-bg.png");
+	background-size: 500% 100%;
+	height: 350px;
+}
+
+#big_logo{
+	text-align: center;
+	position: relative;
+	top: 25%;
+}
+
+#big_logo img{
+	width: 240px;
+}
+
+#malaysia{
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+	color: #fff;
+	position: relative;
+	top: -16px;
+	text-decoration: none;
+}
+
+.small-p{
+	text-align: center;
+	position: relative;
+	font-size: 11px;
+	margin: 0;
+	color: white;
+}
+
+@media screen and (min-width: 325px){
+	button#play_now{
+		left: 29%;
+		right: 29%;
+	}
+}
+
+@media screen and (min-width: 361px){
+	button#play_now{
+		left: 32%;
+		right: 32%;
+	}
+
+	#roulette{
+		top: 54%;
+		margin-right: 20px;
+	}
+
+	#clouds-1{
+		top: 60%;
+	}
+
+	#roulette span{
+	left: 210px;
+	}
+}
+
+
+@media screen and (min-width: 410px){
+	button#play_now{
+		left: 35%;
+		right: 35%;
+	}
+
+	#roulette{
+		top: 50%;
+		margin-right: 20px;
+	}
+
+	#clouds-1{
+		top: 58%;
+	}
+
+	#roulette span{
+	left: 270px;
+	}
+	#spin{
+		width: 240px;
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 410px){
+	button#play_now{
+		left: 37%;
+		right: 37%;
+	}
+}
+
+@media screen and (min-width: 594px){
+	button#play_now{
+		left: 39%;
+		right: 39%;
+	}
+}
