@@ -19,6 +19,10 @@ header{
 	color: #deefec;
 }
 
+a{
+	text-decoration: none;
+}
+
 #section1{
 	display: block;
 	background-image: url("images/banner-bg-1.png");
