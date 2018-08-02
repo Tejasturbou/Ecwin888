@@ -1,3 +1,8 @@
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		 Latest compiled JavaScript
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,6 +13,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" media="screen and (min-device-width: 310px) and (max-device-width: 799px)" href="trial.css">
 		<link rel="stylesheet" media="screen and (min-device-width: 800px)" href="css/styles.css">
 		<link rel="stylesheet" href="css/responsive.css">
@@ -69,12 +75,12 @@
 				<div id="line"></div>
 				<div id="vertical_line"></div>
 				<div id="menu">
-					<div><a href="">Sports</a><span class="spot">.</span></div>
-					<div><a href="">Live Casino</a><span class="spot">.</span></div>
-					<div><a href="">Slots</a><span class="spot">.</span></div>
-					<div><a href="">Lottery</a><span class="spot">.</span></div>
-					<div><a href="">Cockfight</a><span class="spot">.</span></div>
-					<div><a href="">Promotions</a></div>
+					<div id="sports-menu"><a href="#menu">Sports</a><span class="spot">.</span></div>
+					<div>Live Casino<span class="spot">.</span></div>
+					<div>Slots<span class="spot">.</span></div>
+					<div>Lottery<span class="spot">.</span></div>
+					<div>Cockfight<span class="spot">.</span></div>
+					<div class="active" id="promotions-menu">Promotions</div>
 				</div>
 			</div>
 
@@ -82,9 +88,11 @@
 				<img src="images/img3.png" id="women">
 				<img src="images/sky.png" id="cloud-2">
 				<div id="play">
-				<h2>Promotions</h2>
+				<h2 class="change-heading">Promotions</h2>
 				<div id="play_button"><button id="play_now">PLAY NOW</button></div>
 				</div>
+				<img src="images/next.svg" class="next" style="width: 25px; position: absolute; right: 280px; top: 420px">
+				<img src="images/previous.svg" class="previous" style="width: 25px; position: absolute; right: 315px; top: 420px">
 			</div>
 		</section>
 
@@ -185,5 +193,6 @@
       			</div>
     		</div>
         </section>
+        <script src="js/script.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
  	font-family: Reality-Sunday-light;
  	src: url('../fonts/Reality-Sunday-light.ttf');
  }
@@ -320,6 +320,31 @@ nav {
 	z-index: 2;
 }
 
+#sports{
+	width: 650px;
+	position: absolute;
+	left: 16%;
+	top: 170px;
+	z-index: 2;
+}
+
+.active{
+	color: #00b3e7 !important;
+}
+
+@keyframes flow-left {
+  0% {
+  	opacity: 0;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+  	opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
 #cloud-2{
 	width: 100%;
 	position: absolute;
@@ -614,7 +639,9 @@ div#enjoy{
 
 	#menu div {
   	  font-size: 12px;
+  	  cursor: pointer;
 	}
+
 	#women {
 	    width: 520px;
 	    left: 10%;

@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
  	font-family: Reality-Sunday-light;
  	src: url('fonts/Reality-Sunday-light.ttf');
  }
@@ -307,6 +307,15 @@ nav {
 }
 
 #women{
+	width: 320px;
+	position: relative;
+	/*left: 16%;*/
+	top: 130px;
+	z-index: 2;
+	text-align: center;
+}
+
+#sports{
 	width: 320px;
 	position: relative;
 	/*left: 16%;*/
